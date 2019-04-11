@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Like Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+    <link rel="icon" href="img/logo3.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <header>
+        <nav id="menu">
+            <ul class="menu_a">
+                <a href='#box1'><li>HOME</li></a>
+                <a href='#box2'><li>ABOUT</li></a>
+                <a href='#box3'><li>EXPERTIZE</li></a>
+            </ul>
+
+            <a href='#box1'><img id='logo' src='img/logo1.png' alt="logo"></a>
+
+            <ul class="menu_a">
+                <a href='#box4'><li>TEEMS</li></a>
+                <a href='#box5'><li>WORKS</li></a>
+                <a href='#box6'><li>ORDER</li></a>
+                <a href='#ourLocationMap'><li>CONTACT</li></a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="block_video_header" id="box1">
+        <video loop="loop" src="video/1.mp4" autoplay muted>
+            <!--<source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>-->
+        </video>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="block_aboutUs" id="box2">
+        <section class="story">
+                <div class="znak">
+                    <div class="znak2">
+                    <a href="#"><img src="img/logo3.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="about">
+                    Like studio - 'Это молодая комманда креативных и талантливых людей, которых обьединяет любовь к созданию сайта. Мы всегда услышим ваши пожелания и предложим вам самый оптимальный вариант решения вашего проекта'
+                </div>
+        </section>
+    </div>
+
+
+
+    <div class="block_wowslider_teamwork">
+        <p>Макс,  слайдер: на 100%
+            auto, красивые кнопочки в дизайн для нажимания и листания
+            + названия
+            перевод тексты</p>
+    </div>
+
+    <div class="block_skills_expertise" id="skillsExpertise">
+        <p>Макс,  Expertise Навыки что умеем</p>
+    </div>
+
+
+    <div class="block_ourTeam" id="ourTeam">
+        <p>Виталик "О нас". Выслать резюме, ревью, характеристика;     + ссылки на свои работы для портфолио Сане</p>
+    </div>
+
+
+    <div class="block_ourWorks" id="ourWorks">
+        <p>Саня Our Works slider</p>
+    </div>
+
+    <div id="block_orderForm">
+        <p>Саня формы выездные вылетающие</p>
+    </div>
+
+    <div class="block_8_v" id="ourLocationMap">
+        <p>Виталик  футер</p>
+    </div>
+
+</div>
+
+
+<footer>
+
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/mafusail.js"></script>
+    <script src="js/max.js"></script>
+
+
+
+</body>
+
+</html>
